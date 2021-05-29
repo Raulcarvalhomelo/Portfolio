@@ -11,8 +11,10 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo img{
-    height: 50px;
+.logo {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 10px;
 }
 .menu{
     flex-grow: 10;
@@ -40,8 +42,11 @@
     color: black;
 }
 
-
-
 .menu-toogle{
     display: none;
+}
+@media (max-width:1000px) {
+    .menu{
+        display: none;
+    }    
 }
