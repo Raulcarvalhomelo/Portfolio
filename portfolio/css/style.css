@@ -1,66 +1,47 @@
 *{
-    box-sizing: border-box;
-}
-body{
-    margin: 0px;
+    margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .cabecalho{
-    color: white;
-    background-color: hsl(0, 2%, 21%);
-    border-bottom: solid 5px #4faddf;
+    background: #333;
+    color: #fff;
+    border-bottom: solid 5px #4faddb;
     height: 80px;
-    box-sizing: content-box;
-}
-.logo {
-    display: inline-block;
-    height: 80px;
-    padding: 15px;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo img{
-    height: 100%;
-}
-.menu-toogle{
-    background-color: hsl(0, 2%, 21%);
-    float: right;
-    border: solid 1px #777;
-    border-radius: 15px;
-    color: #4faddf;
-    padding: 5px 7px;
-    margin: 25px 20px;
-    display: none;
+    height: 50px;
 }
 .menu{
-    display:inline-block;
-    float: right;
-    vertical-align: top;
-    height: 80px;
-    padding: 25px;    
+    flex-grow: 10;
 }
-.menu ul {
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 .menu li{
-    display: inline-block;
+    margin: 0px 10px;
 }
-.menu a{
-    color: white;
+
+.cabecalho a{
     text-decoration: none;
-    font-size: 1.25em;
-    padding: 100% 10px 35px 10px;
-    /* margin: 0px; */
+    color: white;
+    font-size: 1.3em;
+    padding: 33px 15px;
 }
-.menu a:hover,
-.menu a.selected{
-    background-color: #4faddf;
+
+.menu a:hover{
+    background-color: #4faddb;
+    color: black;
 }
-@media(max-width:1000px){
-    .menu-toogle{
-        display: inline;
-    }
-    .menu ul{
-        display: none;
-    }
+
+
+
+.menu-toogle{
+    display: none;
 }
