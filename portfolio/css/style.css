@@ -1,36 +1,47 @@
-body,ul,li,p{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    font-size: 1.2rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+*{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-header{
-    background-color:black;
+.cabecalho{
+    background: #333;
+    color: #fff;
+    border-bottom: solid 5px #4faddb;
+    height: 80px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     align-items: center;
-    padding: 10px;
+    justify-content: space-between;
 }
-.main-nav.is-open {
-    opacity: 1;
-    z-index: 100;
-    visibility: visible;
+.logo img{
+    height: 50px;
 }
 .menu{
-    display:flex;
+    flex-grow: 10;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .menu li{
-    padding: 15px;
-    margin: 5px;
-}
-a{
-    text-decoration:none;
-    color: white;
+    margin: 0px 10px;
 }
 
-a:hover{
-    color: cadetblue;
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 33px 15px;
+}
+
+.menu a:hover{
+    background-color: #4faddb;
+    color: black;
+}
+
+
+
+.menu-toogle{
+    display: none;
 }
