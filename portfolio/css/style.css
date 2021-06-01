@@ -11,10 +11,10 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo {
-    text-align: center;
-    font-size: 1.1em;
-    padding: 10px;
+.logo img {
+
+    width: 25rem;
+    font-size: 1.5em;
 }
 .menu{
     flex-grow: 10;
@@ -45,6 +45,45 @@
 .menu-toogle{
     display: none;
 }
+
+.container{
+    width: 75%;
+    height: auto;
+    display: grid;
+    flex-direction: row;
+    margin:10px ;
+    background-color:cadetblue;
+    box-shadow:10px 5px 5px black;
+    border-color: black;
+}
+.conhecimento{
+    padding:10px 15px;
+    background-color: #333;
+    
+}
+.experience{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1000px) {
     .menu{
         display: none;
