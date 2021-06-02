@@ -102,8 +102,8 @@
     color: #dadfe2;
 }
 .card:hover[alt="card-Flutter"]{
-    background-color: hsl(200, 80%, 48%);
-    color: #dadfe2;
+    background-color:#014483;
+    color: hsl(200, 80%, 48%);
 }
 .card:hover[alt="card-js"]{
     background-color: hsl(59, 80%, 48%);
@@ -111,11 +111,11 @@
 }
 .card:hover[alt="card-react"]{
     background-color: hsl(200, 80%, 48%);
-    color: #dadfe2;
+    color: #343536;
 }
 .card:hover[alt="card-vue"]{
-    background-color: hsl(200, 80%, 48%);
-    color: #dadfe2;
+    background-color: hsl(150, 71%, 50%);
+    color: #5d6161;
 }
 .card:hover[alt="card-ajax"]{
     background-color: hsl(200, 80%, 48%);
