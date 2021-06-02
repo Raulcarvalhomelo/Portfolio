@@ -46,7 +46,7 @@
     display: none;
 }
 .setor{
-    width: 75%;
+    width: 50%;
 }
 .container{
     width: 100%;
@@ -60,7 +60,9 @@
 }
 .card{
     margin: 4px;
+    margin-bottom: -4px;
     width: 75%;
+    height: 45%;
     background-color: hsl(210, 8%, 91%);
     padding: 10px 15px;
     border-radius: 13em/10em;
@@ -91,7 +93,7 @@
     text-align: center;
 }
 .text-info{
-    padding-top: 7%;
+    padding-top: 4%;
     padding-left: 5%;
     width: 100%;
     text-align: start;
