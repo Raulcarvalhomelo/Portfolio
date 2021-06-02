@@ -55,11 +55,12 @@
     flex-direction: row;
     margin:10px ;
     background-color:white;
-    box-shadow:10px 5px 5px black;
-    border-color: black;
+    box-shadow: inset 0 0 10em rgb(92, 88, 88), 0 0 1em hsl(240, 10%, 20%);
+    /* box-shadow: .5em .5em 0.4em  hsl(0, 4%, 16%), -.5em .5em 0.4em hsl(60, 1%, 13%); */
 }
 .card{
     margin: 4px;
+    border: ;
     width: 75%;
     background-color: hsl(210, 8%, 91%);
     padding: 10px 15px;
@@ -68,14 +69,14 @@
 }
 .conhecimento{
     padding:10px 15px;
-    background-color: #333;
+    border-bottom:2px solid hsl(180, 1%, 53%);
+    background-color:inset 0 0 10em rgb(92, 88, 88);
     
 }
 .experience{
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
-
 
 
 
