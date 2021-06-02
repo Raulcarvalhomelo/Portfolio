@@ -45,16 +45,26 @@
 .menu-toogle{
     display: none;
 }
-
-.container{
+.setor{
     width: 75%;
+}
+.container{
+    width: 100%;
     height: auto;
     display: grid;
     flex-direction: row;
     margin:10px ;
-    background-color:cadetblue;
+    background-color:white;
     box-shadow:10px 5px 5px black;
     border-color: black;
+}
+.card{
+    margin: 4px;
+    width: 75%;
+    background-color: hsl(210, 8%, 91%);
+    padding: 10px 15px;
+    border-radius: 13em/10em;
+    box-shadow: 1px 2px hsla(0, 6%, 25%, 0.8);
 }
 .conhecimento{
     padding:10px 15px;
@@ -76,8 +86,45 @@
 
 
 
+.card:hover{  
+    border: 10px;
+    border-color: 10px rgb(22, 160, 9);
+    transform: scale(1.05);
+    box-shadow:5px 5px 3px hsl(226, 19%, 40%);
+}
 
-
+.card:hover[alt="card-html"]{
+    color: #dadfe2;
+    background-color: hsl(24, 78%, 56%);
+}
+.card:hover[alt="card-css"]{
+    background-color: hsl(200, 80%, 48%);
+    color: #dadfe2;
+}
+.card:hover[alt="card-Flutter"]{
+    background-color: hsl(200, 80%, 48%);
+    color: #dadfe2;
+}
+.card:hover[alt="card-js"]{
+    background-color: hsl(59, 80%, 48%);
+    color: #131414;
+}
+.card:hover[alt="card-react"]{
+    background-color: hsl(200, 80%, 48%);
+    color: #dadfe2;
+}
+.card:hover[alt="card-vue"]{
+    background-color: hsl(200, 80%, 48%);
+    color: #dadfe2;
+}
+.card:hover[alt="card-ajax"]{
+    background-color: hsl(200, 80%, 48%);
+    color: #dadfe2;
+}
+.card:hover[alt="card-angular"]{
+    background-color: hsl(0, 80%, 48%);
+    color: #dadfe2;
+}
 
 
 
