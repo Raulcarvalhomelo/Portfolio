@@ -77,13 +77,25 @@
     grid-template-columns: 33% 33% 33%;
 }
 
+.experience img{
+    width: 25%;
+}
 
 
 
 
-
-
-
+.card[alt="card-html"],[alt="card-css"],[alt="card-js"],
+[alt="card-node"],[alt="card-react"],[alt="card-vue"],
+[alt="card-ajax"],[alt="card-angular"],[alt="card-Flutter"]{
+    display: flex;
+    text-align: center;
+}
+.text-info{
+    padding-top: 7%;
+    padding-left: 5%;
+    width: 100%;
+    text-align: start;
+}
 
 
 .card:hover{  
@@ -110,7 +122,7 @@
     color: hsl(0, 0%, 26%);
 }
 .card:hover[alt="card-react"]{
-    background-color: hsl(200, 80%, 48%);
+    background-color: hsl(219, 60%, 58%);
     color: #343536;
 }
 .card:hover[alt="card-vue"]{
@@ -118,7 +130,7 @@
     color: #5d6161;
 }
 .card:hover[alt="card-ajax"]{
-    background-color: hsl(200, 80%, 48%);
+    background-color: hsl(207, 92%, 33%);
     color: #dadfe2;
 }
 .card:hover[alt="card-angular"]{
@@ -134,9 +146,30 @@
 
 
 
-
 @media (max-width:1000px) {
     .menu{
         display: none;
     }    
+}
+@media (max-width:600px) {
+    .setor{
+        width: 100%;
+    }
+    .card{
+        background: transparent;
+        box-shadow: none;
+        width: 50px;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card[alt="card-html"],[alt="card-css"],[alt="card-js"],
+    [alt="card-node"],[alt="card-react"],[alt="card-vue"],
+    [alt="card-ajax"],[alt="card-angular"],[alt="card-Flutter"]{
+    display: block;
+    text-align: center;
+}
+    .card span{
+        display: none;
+    }
 }
