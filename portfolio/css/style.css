@@ -60,7 +60,6 @@
 }
 .card{
     margin: 4px;
-    border: ;
     width: 75%;
     background-color: hsl(210, 8%, 91%);
     padding: 10px 15px;
@@ -95,20 +94,20 @@
 }
 
 .card:hover[alt="card-html"]{
-    color: #dadfe2;
+    color: #f8f8f8;
     background-color: hsl(24, 78%, 56%);
 }
 .card:hover[alt="card-css"]{
     background-color: hsl(200, 80%, 48%);
     color: #dadfe2;
 }
-.card:hover[alt="card-Flutter"]{
-    background-color:#014483;
-    color: hsl(200, 80%, 48%);
-}
 .card:hover[alt="card-js"]{
     background-color: hsl(59, 80%, 48%);
     color: #131414;
+}
+.card:hover[alt="card-node"]{
+    background-color: hsl(130, 68%, 42%);
+    color: hsl(0, 0%, 26%);
 }
 .card:hover[alt="card-react"]{
     background-color: hsl(200, 80%, 48%);
@@ -125,6 +124,10 @@
 .card:hover[alt="card-angular"]{
     background-color: hsl(0, 80%, 48%);
     color: #dadfe2;
+}
+.card:hover[alt="card-Flutter"]{
+    background-color:#014483;
+    color: hsl(200, 80%, 48%);
 }
 
 
